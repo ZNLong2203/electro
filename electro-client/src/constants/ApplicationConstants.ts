@@ -1,5 +1,5 @@
 class ApplicationConstants {
-  static HOME_PATH = 'http://localhost:8085';
+  static HOME_PATH = 'http://194.29.186.47:8085';
   static API_PATH = ApplicationConstants.HOME_PATH + '/api';
   static CLIENT_API_PATH = ApplicationConstants.HOME_PATH + '/client-api';
   static WEBSOCKET_PATH = ApplicationConstants.HOME_PATH + '/ws';
