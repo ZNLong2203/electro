@@ -5,8 +5,8 @@ services:
     container_name: electro-client
     image: electro-client
     restart: always
-    depends_on:
-      - electro-server
+    # depends_on:
+    #   - electro-server
     build:
       context: electro-client
       dockerfile: Dockerfile
